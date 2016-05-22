@@ -34,7 +34,7 @@ function bp_add_timezone_list() {
 		       'field_group_id'  => $field_group_id,
 		       'name'            => 'Time Zone',
 		       'description'	 => 'Please select your time zone',
-		       'can_delete'      => false,
+		       'can_delete'      => true,
 		       'field_order' 	 => 2,
 		       'is_required'     => false,
 		       'type'            => 'selectbox',
